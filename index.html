@@ -1,2 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-<h1>Hello World</h1>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+      h1 { 
+        font-family: Georgia;
+        color:teal;
+      }
+
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="Resources/assets/images/Fig1.png">Fig. 1</a></li>
+              <li><a class="dropdown-item" href="Resources/assets/images/Fig2.png">Fig. 2</a></li>
+              <li><a class="dropdown-item" href="Resources/assets/images/Fig3.png">Fig. 3</a></li>
+              <li><a class="dropdown-item" href="Resources/assets/images/Fig4.png">Fig. 4</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-8">
+        
+          <h1>Summary: Latitude vs. X</h1>
+    
+          <img src= "Resources/assets/images/Fig1.png" class="float-left" style="height:150px;margin-right:10px">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?</p>
+        </div>
+         <div class="col-md-4">
+        <h1>Visualizations</h1>
+          <!-- plot -->
+          <!-- paragraph -->
+<!-- image float, 2 the left, 2 to the right all images inside a class -->
+<div class="row-center">
+  <div class="column">
+    <img src="Resources/assets/images/Fig1.png" class="float-right" style="height:150px;margin-right:10px">
+  </div>
+  <div class="column">
+    <img src="Resources/assets/images/Fig2.png"class="float-right" style="height:150px;margin-right:10px"> 
+  </div>
+  <div class="column">
+    <img src="Resources/assets/images/Fig3.png" class="float-right" style="height:150px;margin-right:10px">
+  </div>
+  <div class="column">
+    <img src="Resources/assets/images/Fig4.png" class="float-right" style="height:150px;margin-right:10px">
+  </div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>
