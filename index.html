@@ -16,11 +16,17 @@
         color:teal;
       }
 
+      .row {
+        background-color: rgba(255, 255, 255, 0.877);
+
+      }
+
+
     </style>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Latitude</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,21 +58,21 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+  
+  <div class="container-fluid bg-light">
         <div class="row">
         <div class="col-md-8">
         
           <h1>Summary: Latitude vs. X</h1>
     
           <img src= "Resources/assets/images/Fig1.png" class="float-left" style="height:150px;margin-right:10px">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?</p>
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </div>
          <div class="col-md-4">
         <h1>Visualizations</h1>
-          <!-- plot -->
-          <!-- paragraph -->
-<!-- image float, 2 the left, 2 to the right all images inside a class -->
-<div class="row-center">
+
+<div class="row">
   <div class="column">
     <img src="Resources/assets/images/Fig1.png" class="float-right" style="height:150px;margin-right:10px">
   </div>
@@ -85,3 +91,4 @@
 
 </body>
 </html>
+
