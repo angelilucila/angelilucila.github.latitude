@@ -1,12 +1,8 @@
-.h1 {
-  color:teal;
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
-.row {
-  text-align:center;
-}
-.img-container {
-  float: left;
-  width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
-  padding: 5px; /* if you want space between the images */
-}
